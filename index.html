@@ -5,12 +5,30 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FlexBox CSS</title>
+    <script
+      src="https://kit.fontawesome.com/d71e0cdf3f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <menu style="border: 1px solid black">
       <ul>
         <li>
-          <a href="https://google.com" target="_blank"> Inicio </a>
+          <a href="https://google.com" target="_blank">
+            Inicio <i class="fa-brands fa-cc-visa"></i
+          ></a>
         </li>
         <li>
           <a href=""> Iniciar Sesion</a>
@@ -22,19 +40,16 @@
     </menu>
     <h1 class="titulo">Tutoria de FlexBox CSS</h1>
 
-
     <div class="contenedor">
-
       <p class="flex-item">Item 1</p>
       <p class="flex-item">Item 2</p>
       <div class="flex-item">
-        <img src="" alt="">
+        <img src="" alt="" />
         <p>Item 3</p>
         <p>Hola</p>
         <a href="#">Enlace</a>
       </div>
       <p class="flex-item">Item 4</p>
-      
     </div>
 
     <label for="nombre">Ingrese su nombre</label>
@@ -52,52 +67,84 @@
     />
     <a class="enlace" href="#">Ejemplo de enlace</a>
 
-    <nav style="border: 2px solid red; background-color: beige;">
-        <ul style="display: flex; text-decoration: none; list-style: none;">
-            <li><a href="#">Ver mas antiguas</a></li>
-            <li><a href="#">Ver mas nuevas</a></li>
-            <li><a href="#">Subir imagen</a></li>
-        </ul>
+    <nav style="border: 2px solid red; background-color: beige">
+      <ul style="display: flex; text-decoration: none; list-style: none">
+        <li><a href="#">Ver mas antiguas</a></li>
+        <li><a href="#">Ver mas nuevas</a></li>
+        <li><a href="#">Subir imagen</a></li>
+      </ul>
     </nav>
 
-
     <section class="galeria">
+      <div class="card">
+        <div class="img1"></div>
+        <p>Imagen de un perrito</p>
+      </div>
 
-        <div class="card">
-            <div class="img1"></div>
-            <p>Imagen de un perrito</p>
-        </div>
+      <div class="card">
+        <div class="img2"></div>
+        <p>Imagen de un perrito 2</p>
+      </div>
 
-        <div class="card">
-            <div class="img2"></div>
-            <p>Imagen de un perrito 2</p>
-        </div>
+      <div class="card">
+        <div class="img3"></div>
+        <p>Imagen de un perrito 3</p>
+      </div>
 
-        <div class="card">
-            <div class="img3"></div>
-            <p>Imagen de un perrito 3</p>
-        </div>
-        
-        <div class="card">
-            <div class="img2"></div>
-            <p>Imagen de un perrito 2</p>
-        </div>
-        <div class="card">
-            <div class="img2"></div>
-            <p>Imagen de un perrito 2</p>
-        </div>
-        <div class="card">
-            <div class="img2"></div>
-            <p>Imagen de un perrito 2</p>
-        </div>
-                <div class="card">
-            <div class="img2"></div>
-            <p>Imagen de un perrito 2</p>
-        </div>
-
+      <div class="card">
+        <div class="img2"></div>
+        <p>Imagen de un perrito 2</p>
+      </div>
+      <div class="card">
+        <div class="img2"></div>
+        <i class="fa-solid fa-eye"></i>
+        <p>Imagen de un perrito 2</p>
+      </div>
+      <div class="card">
+        <div class="img2"></div>
+        <p>Imagen de un perrito 2</p>
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-eye"></i>
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div>
+        <div class="img2"></div>
+        <div style="display: flex; justify-content: center;"><i class="fa-solid fa-eye"></i></div>
+        <p>Imagen de un perrito 2</p>
+      </div>
     </section>
 
+    <section
+      style="
+        display: flex;
+        padding: 50px;
+        background-color: bisque;
+        justify-content: center;
+      "
+    >
+      <div style="width: 40%">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+          quibusdam, optio nihil nemo ullam animi enim ipsum quisquam, facilis
+          provident magnam ad suscipit at laboriosam et autem? Eligendi, debitis
+          quam?
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur
+          debitis minus quisquam rem amet assumenda molestias. Ab accusamus
+          neque maxime, similique ratione, animi dolores temporibus quaerat
+          error modi voluptas quae.
+        </p>
+      </div>
 
-
+      <div>
+        <img
+          style="width: 200px"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyXeKDN29AmZgZPLS7n0Bepe8QmVappBwZCeA3XWEbWNdiDFB"
+          alt="perrito"
+        />
+      </div>
+    </section>
   </body>
 </html>
