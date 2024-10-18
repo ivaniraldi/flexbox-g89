@@ -1,0 +1,89 @@
+body,
+menu {
+  padding: 0px;
+  margin: 0px;
+}
+menu ul {
+  margin: 0px;
+}
+
+.titulo {
+  text-align: center;
+  text-decoration: underline;
+  border: 1px solid black;
+}
+
+menu {
+  background-color: black;
+  color: white;
+  line-height: 50px;
+}
+menu li {
+  display: inline-block;
+  margin-right: 50px;
+}
+menu a {
+  color: white;
+  text-decoration: none;
+}
+menu a:hover {
+  color: rgb(204, 112, 246);
+  text-decoration: underline;
+}
+
+.imgperrito {
+  width: 250px;
+}
+
+.imgperrito:hover {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.contenedor{
+    display: flex;
+    border: 1px solid green;
+    justify-content: center ;
+}
+
+.flex-item{
+    border: 1px solid black;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card img{
+    width: 250px;
+}
+.card{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+.img1{
+    background-image: url("https://random.dog/59011d06-2c3e-4fe7-ac89-d6c17e7a74c9.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url("https://random.dog/bc21dfb7-db3b-4d66-93d8-7bb4809ec1b8.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url("https://random.dog/2d22fa37-ea40-4496-a9af-58ae57ef65bd.jpg");
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
